@@ -29,10 +29,10 @@ app.use(cors(options));
 app.use(express.json());
 app.use(cookieParser('mySecretKey'));
 
-app.get('/', (req: Request, res: Response) => {
-  console.log("hello there welcome uwu")
-  // throw new Error('');
-});
+// app.get('/', (req: Request, res: Response) => {
+//   console.log("hello there welcome uwu")
+//   // throw new Error('');
+// });
 
 app.use('/api/orphanage', orphanageRouter);
 app.use('/api/impact', impactRouter);
