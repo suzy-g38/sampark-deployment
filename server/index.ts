@@ -30,7 +30,7 @@ app.use(express.json());
 app.use(cookieParser('mySecretKey'));
 
 app.get('/', (req: Request, res: Response) => {
-  console.log("hello there welcome")
+  console.log("hello there welcome uwu")
   // throw new Error('');
 });
 
