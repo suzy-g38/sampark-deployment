@@ -1,7 +1,7 @@
 // import * as express from 'express';
 import { Express, Request, Response } from 'express';
 import express from 'express';
-import cors from 'cors';
+// import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import * as dotenv from 'dotenv';
 // import * as cors from 'cors';
@@ -25,7 +25,7 @@ const options = {
   credentials: true,
 };
 
-app.use(cors(options));
+// app.use(cors(options));
 app.use(express.json());
 app.use(cookieParser('mySecretKey'));
 
