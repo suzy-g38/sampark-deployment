@@ -30,7 +30,8 @@ app.use(express.json());
 app.use(cookieParser('mySecretKey'));
 
 app.get('/', (req: Request, res: Response) => {
-  throw new Error('');
+  console.log("hello there welcome")
+  // throw new Error('');
 });
 
 app.use('/api/orphanage', orphanageRouter);
